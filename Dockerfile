@@ -9,5 +9,8 @@ COPY ./Pozdrav/Pozdrav/bin/Debug/net8.0/ .
 # Kopiraj README.md (ali druge datoteke, ki jih program potrebuje)
 #COPY ./README.md .
 
+# Dodaj izvedbena dovoljenja za .exe datoteko
+RUN chmod +x Pozdrav.exe
+
 # Zaženi .exe datoteko, ko kontejner zaženeš
 CMD ["./Pozdrav.exe"]
