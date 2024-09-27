@@ -1,0 +1,28 @@
+name: Translate README
+
+on:
+  push:
+    paths:
+      - 'README.md'
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build Docker container
+      run: docker build -t pozdrav-app .
+
+    - name: Run translation program in Docker
+      run: docker run pozdrav-app
+
+    - name: Commit translated files
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'actions@github.com'
+        git add a1.txt
+        git commit -m "Automated translation of README.md"
+        git push
