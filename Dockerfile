@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
 WORKDIR /app
 
 # Kopiraj lokalno .exe datoteko v Docker image
-COPY ./Pozdrav/Pozdrav/bin/Debug/net8.0/ /app/
+COPY ./Pozdrav/Pozdrav/bin/Debug/net8.0/Pozdrav.exe /app/
 
 # Kopiraj README.md (ali druge datoteke, ki jih program potrebuje)
 #COPY ./README.md .
