@@ -6,10 +6,11 @@ namespace Pozdrav
         static void Main(string[] args)
         {
             string pozdrav = "Kako si kaj?";
-            StreamWriter sw=new StreamWriter("a1.txt");
-            sw.WriteLine(pozdrav);
-            sw.Close();
-            Console.WriteLine(pozdrav);
+            string filePath = "./izhod/a.txt";
+            // Zapiši datoteko
+            File.WriteAllText(filePath, pozdrav);
+            Console.WriteLine($"Datoteka ustvarjena na poti: {filePath}");
+
         }
     }
 }
