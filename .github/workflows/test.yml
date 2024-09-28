@@ -13,11 +13,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Build Docker container
-      run: docker build -t pozdrav-app .
-
-    - name: Run translation program in Docker
-      run: docker run pozdrav-app
+    - name: Build and run Docker container
+      run: |
+        docker build -t pozdrav-app -f Dockerfile .
+        docker run pozdrav-app
 
     - name: Commit translated files
       run: |
