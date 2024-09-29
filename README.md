@@ -11,4 +11,4 @@ Testirajte, kako lahko izvedemo poljuben program ob vsakem commitu na lokalnem r
 ## Kako uporabimo storitev Google translate
 
 ## Kako uporabimo CI/CD, da se datoteke prevede ob vsakem commitu v vse jezike
-OK
+ni ok
