@@ -16,6 +16,6 @@ jobs:
     - name: Build and run Docker container
       run: |
         docker build -t pozdrav-app  .
-        docker run pozdrav-app
+        docker run -v ./ prevedi-app
 
     
