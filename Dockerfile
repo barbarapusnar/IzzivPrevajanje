@@ -1,11 +1,11 @@
 # Izberi osnovno sliko .NET Runtime, ki podpira poganjanje .exe datotek
-FROM mcr.microsoft.com/dotnet/runtime:6.0 AS base
-
+FROM mcr.microsoft.com/dotnet/sdk:8.0 
 # Nastavi delovno mapo znotraj kontejnerja
 WORKDIR /app
 
 # Kopiraj lokalno .exe datoteko v Docker image
-COPY ./Pozdrav/Pozdrav/bin/Release/net8.0 .
+COPY ./Pozdrav/Pozdrav/bin/Release/net8.0/ .
+
 
 # Kopiraj README.md (ali druge datoteke, ki jih program potrebuje)
 #COPY ./README.md .
@@ -15,3 +15,5 @@ RUN chmod +x Pozdrav.exe
 
 # Zaženi .exe datoteko, ko kontejner zaženeš
 CMD ["./Pozdrav.exe"]
+
+

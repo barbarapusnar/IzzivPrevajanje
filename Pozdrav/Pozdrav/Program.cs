@@ -5,12 +5,10 @@ namespace Pozdrav
     {
         static void Main(string[] args)
         {
-            string pozdrav = "Kako si kaj?";
-            string filePath = "./izhod/a.txt";
+            string pozdrav = "Kako si kaj danes?";
+            string filePath = "./a.txt";
             // Zapiši datoteko
             File.WriteAllText(filePath, pozdrav);
-            Console.WriteLine($"Datoteka ustvarjena na poti: {filePath}");
-
         }
     }
 }

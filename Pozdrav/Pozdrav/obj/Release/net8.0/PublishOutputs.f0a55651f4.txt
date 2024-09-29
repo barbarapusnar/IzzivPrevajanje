@@ -1,0 +1,5 @@
+D:\Challenger\IzzivPrevajanjeNaGit\ZaPublish\Pozdrav.exe
+D:\Challenger\IzzivPrevajanjeNaGit\ZaPublish\Pozdrav.dll
+D:\Challenger\IzzivPrevajanjeNaGit\ZaPublish\Pozdrav.deps.json
+D:\Challenger\IzzivPrevajanjeNaGit\ZaPublish\Pozdrav.runtimeconfig.json
+D:\Challenger\IzzivPrevajanjeNaGit\ZaPublish\Pozdrav.pdb
