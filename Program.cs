@@ -1,5 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System;
 using System.IO;
-var filePath = Path.Combine(Directory.GetCurrentDirectory(), "a.txt");
+var currentDir = Directory.GetCurrentDirectory();
+Console.WriteLine($"Current Directory: {currentDir}");
+var filePath = Path.Combine(currentDir, "a.txt");
 File.WriteAllText(filePath, "Dobro jutro");
-System.Console.WriteLine("Napisano");
+Console.WriteLine($"File created: {filePath}");
