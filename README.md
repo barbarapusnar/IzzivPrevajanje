@@ -14,7 +14,7 @@ Testirajte, kako lahko izvedemo poljuben program ob vsakem commitu na lokalnem r
 ## Kako uporabimo CI/CD, da se datoteke prevede ob vsakem commitu v vse jezike
 glej zapiske....
 ## Kako generirati datoteke
-??
+
 
 
 
