@@ -1,5 +1,0 @@
-D:\Challenger\IzzivPrevajanjeNaGit\bin\Release\net8.0\publish\Pozdrav.exe
-D:\Challenger\IzzivPrevajanjeNaGit\bin\Release\net8.0\publish\Pozdrav.dll
-D:\Challenger\IzzivPrevajanjeNaGit\bin\Release\net8.0\publish\Pozdrav.deps.json
-D:\Challenger\IzzivPrevajanjeNaGit\bin\Release\net8.0\publish\Pozdrav.runtimeconfig.json
-D:\Challenger\IzzivPrevajanjeNaGit\bin\Release\net8.0\publish\Pozdrav.pdb
