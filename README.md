@@ -9,8 +9,9 @@ Preberite si dokument o .md datotekah
 Testirajte, kako lahko izvedemo poljuben program ob vsakem commitu na lokalnem računalniku. Uporabite navodila v **Lokalna avtomatizacija.docx**
 
 ## Kako uporabimo storitev Google translate
-## kje shraniti kodo za API-je
+## Kje shraniti kodo za API-je
 
 ## Kako uporabimo CI/CD, da se datoteke prevede ob vsakem commitu v vse jezike
+## Kako generirati datoteke
 
 
