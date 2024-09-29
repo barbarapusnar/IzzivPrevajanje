@@ -1,6 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.IO;
-string pot="a.txt";
-string sporočilo="Dobro jutro";
-File.WriteAllText(pot,sporočilo);
+var filePath = Path.Combine(Directory.GetCurrentDirectory(), "a.txt");
+File.WriteAllText(filePath, "Dobro jutro");
 System.Console.WriteLine("Napisano");
