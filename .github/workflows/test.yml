@@ -17,7 +17,7 @@ jobs:
     - name: Build and run Docker container
       run: |
         docker build -t pozdrav-app  .
-        docker run -v ${{ github.workspace }}:/app/ pozdrav-app
+        docker run -v ${{ github.workspace }}:/App/ pozdrav-app
     - name: Commit translated files
       run: |
         git config --global user.name 'github-actions'
