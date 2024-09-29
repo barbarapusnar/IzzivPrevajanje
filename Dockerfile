@@ -14,4 +14,4 @@ COPY ./Pozdrav/Pozdrav/bin/Release/net8.0 .
 RUN chmod +x Pozdrav.exe
 
 # Zaženi .exe datoteko, ko kontejner zaženeš
-CMD ["./Pozdrav.exe"]
+CMD ["Pozdrav.exe"]
