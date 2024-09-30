@@ -1,0 +1,15 @@
+d:\Challenger\IzzivPrevajanjeNaGit\bin\Debug\net8.0\Pozdrav.exe
+D:\Challenger\IzzivPrevajanjeNaGit\bin\Debug\net8.0\Pozdrav.deps.json
+D:\Challenger\IzzivPrevajanjeNaGit\bin\Debug\net8.0\Pozdrav.runtimeconfig.json
+d:\Challenger\IzzivPrevajanjeNaGit\bin\Debug\net8.0\Pozdrav.dll
+d:\Challenger\IzzivPrevajanjeNaGit\bin\Debug\net8.0\Pozdrav.pdb
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.GeneratedMSBuildEditorConfig.editorconfig
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.AssemblyInfoInputs.cache
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.AssemblyInfo.cs
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.csproj.CoreCompileInputs.cache
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.sourcelink.json
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.dll
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\refint\Pozdrav.dll
+d:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.pdb
+D:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\Pozdrav.genruntimeconfig.cache
+D:\Challenger\IzzivPrevajanjeNaGit\obj\Debug\net8.0\ref\Pozdrav.dll

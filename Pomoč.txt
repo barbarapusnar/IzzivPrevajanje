@@ -1,0 +1,6 @@
+dotnet publish Dotnet.docker.csproj -c Release
+če brišeš .sln naredi brez imena (kar dodaja ta sln file)
+dotnet publish App -c Release -o out
+
+docker run -it --rm counter-image
+

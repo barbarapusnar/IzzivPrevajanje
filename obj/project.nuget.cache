@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RwWPt5IAhWg=",
+  "dgSpecHash": "A5/DFZJluEY=",
   "success": true,
   "projectFilePath": "D:\\Challenger\\IzzivPrevajanjeNaGit\\Pozdrav.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\barbara\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\8.0.8\\microsoft.netcore.app.runtime.linux-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\barbara\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\8.0.8\\microsoft.aspnetcore.app.runtime.linux-x64.8.0.8.nupkg.sha512",
+    "C:\\Users\\barbara\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\8.0.8\\microsoft.netcore.app.host.linux-x64.8.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
